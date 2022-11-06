@@ -19,12 +19,13 @@
   </head>
 
   <body>
+
     <!--Header-->
-    <header class="header-site">
+    <header class="header">
       <div class="container mine-nav">
-        <nav class="nav-header">
+        <nav class="header-nav">
           <a class="logo link" lang="en" href="./index.html"
-            ><span class="web">Web</span>Studio</a
+            ><span class="logo__web">Web</span>Studio</a
           >
           <ul class="site-nav list">
             <li class="item">
@@ -40,7 +41,7 @@
         </nav>
         <ul class="site-contacts list">
           <li class="item">
-            <a class="contact-item-icon link" href="mailto:info@devstudio.com">
+            <a class="site-contacts__link link" href="mailto:info@devstudio.com">
               <svg class="mailo-icon">
                 <use href="./images/symbol-defs.svg#icon-envelope"></use>
               </svg>
@@ -48,7 +49,7 @@
             >
           </li>
           <li class="item">
-            <a class="contact-item-icon link" href="tel:+380961111111">
+            <a class="site-contacts__link link" href="tel:+380961111111">
               <svg class="tel-icon">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
@@ -59,64 +60,66 @@
       </div>
     </header>
     <!-- MAIN -->
+
     <main>
       <!--Hiro-->
       <section class="hero owerlay">
         <div class="container">
-          <h1 class="title-hero">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="button-hero" data-modal-open>
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero__button" data-modal-open>
             Замовити послугу
           </button>
         </div>
       </section>
+
       <!--Section 2-->
       <section class="section benefits">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="benefits-item list">
             <li class="item">
-              <div class="icon-item">
-                <svg class="item-picture">
+              <div class="item__icon">
+                <svg class="item__picture">
                   <use href="./images/symbol-defs.svg#icon-antenna-1"></use>
                 </svg>
               </div>
               <h3 class="title-three">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="text">
+              <p class="title-three__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
             <li class="item">
-              <div class="icon-item">
-                <svg class="item-picture">
+              <div class="item__icon">
+                <svg class="item__picture">
                   <use href="./images/symbol-defs.svg#icon-clock"></use>
                 </svg>
               </div>
               <h3 class="title-three">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="text">
+              <p class="title-three__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе
               </p>
             </li>
             <li class="item">
-              <div class="icon-item">
-                <svg class="item-picture">
+              <div class="item__icon">
+                <svg class="item__picture">
                   <use href="./images/symbol-defs.svg#icon-diagram-1"></use>
                 </svg>
               </div>
               <h3 class="title-three">ПЛАНУВАННЯ</h3>
-              <p class="text">
+              <p class="title-three__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="item">
-              <div class="icon-item">
-                <svg class="item-picture">
+              <div class="item__icon">
+                <svg class="item__picture">
                   <use href="./images/symbol-defs.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
               <h3 class="title-three">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="text">
+              <p class="title-three__text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -124,6 +127,7 @@
           </ul>
         </div>
       </section>
+
       <!--Section 3-->
       <section class="section images padding">
         <div class="container">
@@ -131,25 +135,26 @@
           <ul class="ofers-item list">
             <li class="item">
               <img src="./images/box-1.jpg" alt="Верстка" width="370" />
-              <p class="above-item">Десктопні додатки</p>
+              <p class="item__above">Десктопні додатки</p>
             </li>
             <li class="item">
               <img src="./images/box-2.jpg" alt="Стилізація" width="370" />
-              <p class="above-item">Мобільні додатки</p>
+              <p class="item__above">Мобільні додатки</p>
             </li>
             <li class="item">
               <img src="./images/box-3.jpg" alt="Адаптація" width="370" />
-              <p class="above-item">Дизайнерські рішення</p>
+              <p class="item__above">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
       </section>
+
       <!--Section 4-->
       <section class="section team padding">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="team-item list">
-            <li class="team-card">
+          <ul class="team list">
+            <li class="team__card">
               <div class="team-thumb">
                 <img
                   src="./images/Dem'yanenko.jpg"
@@ -159,8 +164,8 @@
               </div>
 
               <div class="team-content">
-                <h3 class="title-name">Ігор Дем'яненко</h3>
-                <p lang="en" class="team-text">Product Designer</p>
+                <h3 class="team-content__title">Ігор Дем'яненко</h3>
+                <p lang="en" class="team-content__text">Product Designer</p>
 
                 <!-- I C O N-Social -->
                 <ul class="social-team list">
@@ -204,14 +209,14 @@
               </div>
             </li>
 
-            <li class="team-card">
+            <li class="team__card">
               <div class="team-thumb">
                 <img src="./images/Repina.jpg" alt="Ольга Рєпіна" width="270" />
               </div>
 
               <div class="team-content">
-                <h3 class="title-name">Ольга Рєпіна</h3>
-                <p lang="en" class="team-text">Frontend Developer</p>
+                <h3 class="team-content__title">Ольга Рєпіна</h3>
+                <p lang="en" class="team-content__text">Frontend Developer</p>
                 <!-- I C O N-Social -->
                 <ul class="social-team list">
                   <li class="icon-social">
@@ -254,7 +259,7 @@
               </div>
             </li>
 
-            <li class="team-card">
+            <li class="team__card">
               <div class="team-thumb">
                 <img
                   src="./images/Tarasov.jpg"
@@ -264,8 +269,8 @@
               </div>
 
               <div class="team-content">
-                <h3 class="title-name">Микола Тарасов</h3>
-                <p lang="en" class="team-text">Marketing</p>
+                <h3 class="team-content__title">Микола Тарасов</h3>
+                <p lang="en" class="team-content__text">Marketing</p>
 
                 <!-- I C O N-Social -->
                 <ul class="social-team list">
@@ -309,7 +314,7 @@
               </div>
             </li>
 
-            <li class="team-card">
+            <li class="team__card">
               <div class="team-thumb">
                 <img
                   src="./images/Yermakov.jpg"
@@ -319,8 +324,8 @@
               </div>
 
               <div class="team-content">
-                <h3 class="title-name">Михайло Єрмаков</h3>
-                <p lang="en" class="team-text">UI Designer</p>
+                <h3 class="team-content__title">Михайло Єрмаков</h3>
+                <p lang="en" class="team-content__text">UI Designer</p>
 
                 <!-- I C O N-Social -->
                 <ul class="social-team list">
@@ -366,6 +371,7 @@
           </ul>
         </div>
       </section>
+
       <!-- Section regular customers -->
       <section class="section padding">
         <div class="container">
