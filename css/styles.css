@@ -90,15 +90,16 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
+.mine-nav {
+  display: flex;
+  align-items: center;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
 }
 
-.mine-nav {
-  display: flex;
-  align-items: center;
-}
 
 .logo {
   align-items: center;
@@ -121,13 +122,9 @@ img {
   margin-left: 93px;
 }
 
-.site-contacts {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
-}
 
 .site-nav .link {
+  position: relative;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -152,12 +149,16 @@ a.link.current {
   margin-right: 50px;
 }
 
+
+.site-contacts {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  }
+  
+
 .site-contacts>.item:not(:last-child) {
   margin-right: 50px;
-}
-
-.site-nav {
-  position: relative;
 }
 
 .link.current::after {
@@ -172,7 +173,10 @@ a.link.current {
   border-radius: 2px;
 }
 
-.site-contacts .link {
+.site-contacts__link {
+  display: flex;
+  align-items: center;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -184,14 +188,9 @@ a.link.current {
   transition-timing-function: var(--timing-function);
 }
 
-.site-contacts .link:hover,
-.site-contacts .link:focus {
+.site-contacts__link:hover,
+.site-contacts__link:focus {
   color: var(--akcent-color);
-}
-
-.contact-item-icon {
-  display: flex;
-  align-items: center;
 }
 
 .mailo-icon {
