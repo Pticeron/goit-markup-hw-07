@@ -123,7 +123,7 @@ img {
 }
 
 
-.site-nav .link {
+.site-nav__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -136,32 +136,21 @@ img {
   transition-timing-function: var(--timing-function);
 }
 
-a.link.current {
+.site-nav__link--current {
   color: var(--akcent-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--akcent-color);
 }
 
-.site-nav>.item:not(:last-child) {
+.site-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
 
-.site-contacts {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
-  }
-  
-
-.site-contacts>.item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.link.current::after {
+.site-nav__link--current::after {
   position: absolute;
   left: 0;
   bottom: -200%;
@@ -171,6 +160,16 @@ a.link.current {
   height: 4px;
   background: #2196f3;
   border-radius: 2px;
+}
+
+.site-contacts {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.site-contacts__item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .site-contacts__link {
@@ -193,19 +192,19 @@ a.link.current {
   color: var(--akcent-color);
 }
 
-.mailo-icon {
+.site-contacts__icon {
   margin-right: 10px;
   width: 16px;
   height: 12px;
   fill: currentColor;
 }
 
-.tel-icon {
+.site-contacts__icon--tel {
   margin-right: 10px;
   width: 10px;
   height: 16px;
   fill: currentColor;
-}
+} 
 
 
 /* Hero  */
