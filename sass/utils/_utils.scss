@@ -1,9 +1,9 @@
 body {
-    font-family: var(--one-font-family);
-    color: var(--one-text-color);
+    font-family: $primery_font;
+    color: $text_color;
     font-size: 14px;
     letter-spacing: 0.03em;
-    background-color: var(--one-backgraund-color);
+    background-color: $primary_bcg_color;
 }
 
 
@@ -25,6 +25,15 @@ img {
 
 .padding {
     padding-bottom: 94px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
 
