@@ -79,7 +79,7 @@
     color: $secondary_akcent_color;
     background-color: rgba(255, 255, 255, 0.1);
 
-    transition: backgraund-color 250ms $timing_function;
+    transition: background-color 250ms $timing_function;
 
     &:hover,
     &:focus {
